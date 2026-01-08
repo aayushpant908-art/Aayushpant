@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    background-image:url("https://media.istockphoto.com/id/1394876713/video/technology-digital-big-data-connection-digital-cyberspace-digital-data-network-and-blockchain.avif?s=640x640&k=20&c=B6YWl2AvuDrnhUtRfeRZuh7v5QlNH3hJAFxV7y6eMv8=");
+    background-size:cover;
+    background-position:center;
+    font-family: Arial;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    padding:15px 40px;
+    background:rgba(0,0,0,0.7);
+    box-shadow:0 0 10px black;
+}
+
+.logo{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-right:15px;
+}
+
+.school-name{
+    color:#ffe066;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.main{
+    height:calc(100vh - 90px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-box{
+    background: rgba(0,0,0,0.75);
+    padding: 40px 50px;
+    border-radius: 15px;
+    width:350px;
+    box-shadow: 0 0 20px black;
+    color:white;
+}
+
+h1{
+    color:#ffe066;
+    text-align:center;
+    margin-bottom:20px;
+}
+h4{
+    color: rgb(174, 204, 204);
+    text-align: center;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    color:#ddd;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    background: linear-gradient(90deg,#ff9900,#ff5500);
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow:0 0 20px orange;
+}
+
+.back{
+    display:block;
+    margin-top:15px;
+    text-align:center;
+    color:#22c55e;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+    <h4>WEBSITE CREATED BY AAYUSH PANT</h4>
+
+
+<div class="header">
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/512/201/201614.png">
+    <div class="school-name">Shree Baijinath Secondary School</div>
+</div>
+
+
+<div class="main">
+<div class="form-box">
+
+<h1> Registration</h1>
+
+<form action="success.html">
+
+<label>Full Name</label>
+<input type="text" required>
+
+<label>Class</label>
+<input type="text" required>
+
+<label>Section</label>
+<input type="text" required>
+
+<label>Roll No</label>
+<input type="number" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<button type="submit">Register</button>
+
+</form>
+
+<a class="back" href="index.html">⬅ Back to Home</a>
+
+</div>
+</div>
+
+</body>
+</html>
